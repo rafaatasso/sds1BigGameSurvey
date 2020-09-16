@@ -120,11 +120,11 @@ const getGenreChartData = (records : RecordItem[]) => {
     }
 }
 
-console.log('GRÁFICO DE BARRAS ----------------------------');
+console.log('GRÁFICO DE BARRAS ---------------------------------------');
 console.log(buildBarSeries(gameList, recordItemList));
 
 console.log('GRÁFICO DE ROSCA (PLATAFORMAS) --------------------------');
 console.log(getPlatformChartData(recordItemList));
 
-console.log('GRÁFICO DE ROSCA (GÊNEROS) --------------------------');
+console.log('GRÁFICO DE ROSCA (GÊNEROS) ------------------------------');
 console.log(getGenreChartData(recordItemList));
